@@ -20,7 +20,7 @@ Pomóż zespołom ratowników z Karetek Pogotowia (KP) przewozić pacjentów (P)
 2 | Pomnik Fryderyka Chopina | 110 | 55
 3 | Pomnik Anonimowego Przechodnia | 40 | 70
 
-# Drogi (id | id_szpitala | id_szpitala | odległość)
+ Drogi (id | id_szpitala | id_szpitala | odległość)
 1 | 1 | 2 | 700
 2 | 1 | 4 | 550
 3 | 1 | 5 | 800
