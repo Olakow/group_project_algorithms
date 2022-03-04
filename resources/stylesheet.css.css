@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Inter";
+    src: url('fonts/Inter-Regular.ttf');
+}
+
+.root {
+    -fx-text-fill: white;
+
+    -fx-font-family: "Inter";
+}
+
+.label {
+    -fx-text-fill: #aaa;
+
+    -fx-font-family: "Inter";
+    -fx-font-size: 10pt;
+
+    -fx-padding: 8px 16px;
+}
+
+.button {
+    -fx-background-color: rgb(46, 46, 46);
+    -fx-text-fill: white;
+
+    -fx-font-family: "Inter";
+    -fx-font-size: 10pt;
+
+    -fx-padding: 6px 16px;
+}
+
+.button:hover {
+    -fx-background-color: rgb(60, 60, 60);
+}
+
+.button:pressed {
+    -fx-background-color: rgb(30, 30, 30);
+}
+
+#informationMain {
+    -fx-font-family: "Inter";
+    -fx-font-size: 24pt;
+}
+
+#informationSub {
+    -fx-font-family: "Inter";
+    -fx-font-size: 14pt;
+
+    -fx-padding: 0px 0px 0px 8px;
+}
+
+.table-view {
+    -fx-background-color: rgb(40, 40, 40);
+
+    -fx-pannable: false;
+}
+
+
+.table-view .table-cell {
+    -fx-background-color: rgb(40, 40, 40);
+    -fx-text-fill: white;
+
+    -fx-font-family: "Inter";
+    -fx-font-size: 11pt;
+
+    -fx-border-color: transparent;
+    -fx-border-width: 0px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #888;
+
+    -fx-font-family: "Inter";
+
+    -fx-padding: 4px;
+}
